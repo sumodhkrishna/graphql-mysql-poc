@@ -1,0 +1,4 @@
+type Query{
+    genQuery : String
+    queryWithInput(firstInput:String, secondInput:String) : String
+}
