@@ -1,4 +1,9 @@
 type Query{
     genQuery : String
-    queryWithInput(firstInput:String, secondInput:String) : String
+    queryWithInput(request:SampleRequest) : String
+}
+
+input SampleRequest{
+    firstInput:String,
+    secondInput:String
 }
